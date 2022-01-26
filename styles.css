@@ -23,6 +23,12 @@
     position: sticky;
 }
 
+.sidenav a > img {
+    height: 22px;
+    width: 22px;
+    display: block;
+    margin: 0px;
+}
 .sidenav img {
     height: 160px;
     width: 160px;
@@ -39,7 +45,7 @@
 
 .sidenav p > a{
     padding-left: 10px;
-    padding-top: 100px;
+    padding-top: 60px;
     cursor: pointer;
     font-size: 17px;
 }
@@ -97,4 +103,52 @@
     height: auto;
     width: auto;
     margin-left: 250px;
+}
+
+.gallery1 {
+    display: table;
+    margin-left: 250px;
+    height: 280px;
+    width: 700px;
+}
+
+.image {
+    float: left;
+    padding: 15px;
+    margin-left: 60px;
+}
+
+.image img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.image img:hover {
+    transform: rotate(350deg)
+}
+
+.gallery2 {
+    display: table;
+    margin-left: 450px;
+    height: 280px;
+    width: 700px;
+}
+
+.images {
+    float: left;
+    padding: 18.5px;
+    margin-left: 60px;
+}
+
+.images img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.images img:hover {
+    transform: rotate(10deg)
 }
