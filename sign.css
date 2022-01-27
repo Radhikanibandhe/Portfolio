@@ -1,13 +1,13 @@
 body {
-    background-image: url('./assets/images/background.jpg');
+    background-image: url('./assets/images/background1.jpg');
     font-family: 'Roboto Slab', serif;
 }
 
 .signup-form {
     background-color: white;
     margin-top: 70px;
-    margin-left: 200px;
-    margin-right: 500px;
+    margin-left: 350px;
+    margin-right: 350px;
     border-radius: 10px;
     padding: 20px;
     height: 350px;
